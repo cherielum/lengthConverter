@@ -1,0 +1,52 @@
+body {
+	margin-top: 20px; /*brings it down*/
+	background: #333;
+	color: white;
+}
+
+
+#output {
+	width: 100%;
+}
+
+form {
+	margin-top: 5%;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 30px;
+	padding-left: 70%;
+	margin: 5px;
+	text-decoration: none;
+}
+
+ul li a, ul.nav li a:visited {
+    color: #A4E869; //yellow-lime
+}
+
+ul li a:hover, ul.nav li a:active {
+    color: #38c5fc; //logo-blue
+}
+
+ul li.active a {
+    color: #b5b59c; //light-brown
+}
+
+.active1 {
+	color: #b5b59c; //light brown
+}
+
+.active2 {
+	color: #b5b59c; //light brown
+}
+
+.active3 {
+	color: #b5b59c; //light brown
+}
